@@ -38,9 +38,9 @@ export default function Home() {
               className="fs-0"
               style={{ fontFamily: "Prompt", color: "rgb(87, 87, 87)" }}
             >
-              Hi. my name is Phanarin Kiatsirithaworn. I'm studying at Faculty
+              Hi. my name is Phanarin Kiatsirithaworn. I am studying at Faculty
               of Computer Engineering, Chiang Mai University. I love video
-              editing. I'm interested in making movies.
+              editing. I am interested in making movies.
             </p>
             <hr />
           </div>

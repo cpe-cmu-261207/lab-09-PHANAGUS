@@ -1,7 +1,7 @@
 import React from "react";
 import MainLayout from "../layouts/MainLayout";
 
-export default function () {
+export default function contact() {
   return (
     <div>
       <MainLayout>

@@ -128,9 +128,9 @@ export default function Todolist() {
         {todos.map((todo, i) => (
           <ThemeContext.Provider value={{ selTheme }}>
             <Todo
+              key={i}
               title={todo.title}
               completed={todo.completed}
-              key={i}
               onDelete={() => deleteTodo(i)}
               onMark={() => markTodo(i)}
               onUp={() => moveUp(i)}
