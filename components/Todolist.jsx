@@ -126,7 +126,7 @@ export default function Todolist() {
         {/* Todos */}
 
         {todos.map((todo, i) => (
-          <ThemeContext.Provider value={{ selTheme }}>
+          <ThemeContext.Provider value={{ selTheme }} key={i}>
             <Todo
               key={i}
               title={todo.title}
